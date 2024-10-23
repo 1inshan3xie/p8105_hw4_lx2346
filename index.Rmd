@@ -1,0 +1,27 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Linshan's awesome website!
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+This is an **awesome website** about data science and elmo.\
+Sometimes I use [google](http://www.google.com/) to do data science when I'am stuck. 
+
+
+This is a pic of my cute dog: Huanhuan
+![](images/huanhuan.jpg)
+
+
+And there is also a picture of me and huanhuan!
+<img src = "images/me_and_huanhuan.jpg" style = "width:60%">
+
+If you want to know about me and my academic and professional experience, please click [here](personal.html)
+
+
+

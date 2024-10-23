@@ -1,0 +1,79 @@
+---
+title: "dashboard!"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("ny_noaa")
+
+unique_ids = unique(ny_noaa$id)
+one_fifth_ids = sample(unique_ids, length(unique_ids) / 5)
+
+filtered_ny_noaa = ny_noaa |>
+  filter(id %in% one_fifth_ids) |>
+  mutate(tmin = as.numeric(tmin),
+         tmax = as.numeric(tmax),
+         prcp = as.numeric(prcp),
+         snow = as.numeric(snow),
+         snwd = as.numeric(snwd),
+         date = as.Date(date)) |>
+  mutate(tmin = tmin / 10,
+    tmax = tmax / 10,
+    prcp = prcp/10 ) |>
+  filter(
+    date >= as.Date("2010-01-01") & date <= as.Date("2010-12-31"))
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+filtered_ny_noaa |>
+  mutate(id = as.factor(id)) |>
+  mutate(id = fct_reorder(id, tmax)) |>
+  plot_ly(
+    x = ~ id, y = ~ tmax, color = ~ id,
+    type = "box")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+filtered_ny_noaa |>
+  mutate(text_label = str_c("Max Tempreture", tmax, "\nMin Tempreture:", tmin)) |>
+  plot_ly(
+    x = ~tmax, y = ~tmin, color = ~id, text = ~text_label, 
+    type = "scatter", mode = "markers", alpha = 0.8
+  )
+```
+
+### Chart C
+
+```{r}
+avg_prcp = filtered_ny_noaa |>
+  group_by(id) |>
+  summarize(avg_prcp = mean(prcp, na.rm = TRUE))
+
+avg_prcp|>
+  plot_ly(
+  x = ~id, 
+  y = ~avg_prcp,
+  color = ~id,
+  type = "bar")
+```
+

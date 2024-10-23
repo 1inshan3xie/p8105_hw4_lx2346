@@ -1,0 +1,100 @@
+---
+title: "About me!"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+\
+
+## Linshan  Xie 
+<img src = "images/self.jpg" style = "width:25%">   
+
+\ 
+\
+
+# Education
+\
+●	**Columbia University Mailman School of Public Health** , New York, United States\
+**Biostatistics, MS, Public Health Data Science Track** \                	   
+Core courses: Principles of Epidemiology, Probability, Data Science I, Biostatistical Methods I, Statistical Computing with SAS\
+●	**Fudan University** , Shanghai, China\
+**Bachelor of Science, Biology** , Sep.2020 - Jun.2024\
+GPA: 3.53/4.0 \
+Core courses: Introduction to Statistics (A), Microbiology (A-), Biostatistics (A-), Genomics (A), Design and Practice of Biological Science Research (A), Genetics (A), Cell Biology (A-), Biochemistry (A-), Botany (A-), Analytical Chemistry (A)\
+
+# Publications
+\
+•	**Linshan Xie**, Association between triclosan and obesity using NHANES 2007-2016: Overall and stratified population. Theoretical and Natural Science, 20, 197-203 (2023). https://doi.org/10.54254/2753-8818/20/20230766.
+\
+•	**Linshan Xie**. Pima Indian Diabetes Database and Machine Learning Models for Diabetes Prediction. Highlights in Science, Engineering and Technology, 88, 97-103 (2024). https://doi.org/10.54097/z7hz7j81.
+\
+•	Yang, J., Li, X., Dai, C. et al. Living Conditions Alter Ketogenic Diet-induced Metabolic Consequences in Mice through Modulating Gut Microbiota. Phenomics (2024). https://doi.org/10.1007/s43657-024-00161-1.
+\
+•	Li, X., Yang, J., Zhou, X. et al. Ketogenic diet-induced bile acids protect against obesity through reduced calorie absorption. Nat Metab 6, 1397–1414 (2024). https://doi.org/10.1038/s42255-024-01072-1.
+
+# Internship Experience
+
+#### VectorBuilder —— International Business Department & Technical Support Department Intern
+•	Communicated with more than 10 clients using VB back-end software, analyzed historical customer order data, and provided insights for the IPO plan for a biotenology .\
+•	Constructed customized gene delivery vectors (plasmids, lentiviruses, AAV) using bioinformatics software.\
+•	Participated in plasmid construction and quality control testing in the company's workshop.\
+\
+
+# Research Experience
+
+#### Probabilities, Statistics and Applications
+•	Independently coded and conducted group presentations on random walks in dimensions 1, 2, and 3, including defining random walks and writing code related to papers. Explored applications of random walks in page ranking, gambling, and image segmentation. \
+•	Diabetes Prediction Using K-Nearest Neighbor (K-NN), Support Vector Machine (SVM), Logistic Regression (LR) and Random Forest (RF) Models and the Pima Indian Diabetes Dataset.\
+\
+
+#### The association between sleep and depression in US adults: data from the NHANES —— Yale University, project leader
+•	Led a team of 4 students in identifying research questions, acquiring and cleaning the NHANES dataset, and building logistic regression models.\
+•	Presented comprehensive research findings in oral and written reports.\
+\
+
+##### Research on the Evolution of Sound Communication Ability Based on the Mitochondrial Genome of Terrestrial Vertebrates —— Fudan University, Research Assistant
+●	Constructed a gene library, a phylogenetic tree, and a phenotype database for nearly a thousand species of terrestrial vertebrates with a focus on their sound communication ability.\
+●	Collected and organized literature related to the sound communication ability of terrestrial vertebrates, and performed quantification on mitochondrial genome sequencing and classification information of species from the NCBI and IUCN databases.\
+●	Used R language to build correlation regression between the evolutionary stage of the phylogenetic tree and species’ vocal communication ability, used parameter λ to evaluate the fit between trait correlation and feature evolution in the Brownian motion model among closely related species.\
+\
+
+#### Ketogenic Diet Regulates Lipid Absorption Through Specific Bile Acids —— Fudan University, Research Assistant
+●	Conducted extensive literature research to understand the overview of the ketogenic diet, the association between the ketogenic diet and glucose and lipid metabolism, and its association with bile acids.\
+●	Performed a wide range of experimental operations, including mouse breeding, sampling, gene cloning, and data analysis. Characterized the lipid absorption of mice using Oral Lipid Tolerance Test (OLTT) experiments and fluorescence tracking methods. \
+\
+
+# Scholarships And Honors
+**Excellent Graduates of Shanghai** – 06/2024 \
+Fudan University Outstanding Student Scholarship – 10/2023.10 \
+2021-2022 Academic Year Fudan University Professional Scholarship - 2021, 2022, 2023, 2024 \
+Fudan University Undergraduate Excellent Student Scholarship Second Prize	 - 2021, 2022, 2023, 2024 \
+Excellent students of the "October Award" for the 2020-2021 school year - 11/2021 \
+\
+
+# Me in life
+●	board game
+<img src = "images/juben.jpg" style = "width:30%">
+●	delicious food
+<img src = "images/food.jpg" style = "width:30%">
+\
+\
+●	beautiful pic
+<img src = "images/meme.jpg" style = "width:30%">
+●	traveling around
+<img src = "images/travel.jpg" style = "width:30%">
+
+
+
+
+
+
+
+
+
+
+
+You can go [home](index.html) using this link.
+
+
+
